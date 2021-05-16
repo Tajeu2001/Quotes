@@ -4,11 +4,11 @@
   <div class="row">
     <div class="col-md-6">
     <ul>
-      <div *ngFor='let quote of quotes ; let i = index'><!--
+      <div *ngFor='let quote of quotes ; let i = index'>
         <li appHighlight>{{quote.name}}</li>
         <button (click)="quoteDetails(i)" id="details" class="btn btn-danger ">Quote Details</button>
         <app-quote-detail *ngIf='quote.showDetails' [quote]='quote' (isComplete) = 'completeQuote($event,i)'></app-quote-detail>
-      </div>
+      </div><!--
     </ul>
     </div>
     <div class="col-md-6">
