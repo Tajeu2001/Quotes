@@ -30,7 +30,7 @@ export class QuoteComponent implements OnInit {
     quote.id= quoteLength+1;
     quote.submitdate = new Date(quote.submitdate)
     this.quotes.push(quote)
-  }/*
+  }
 
   constructor() { }
 
