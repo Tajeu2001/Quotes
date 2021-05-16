@@ -18,13 +18,13 @@ export class QuoteComponent implements OnInit {
   quoteDetails(index:number){
     this.quotes[index].showDetails = !this.quotes[index].showDetails;
   }
-/*
+
   completeQuote(isComplete:any, index:number){
     if (isComplete) {
       this.quotes.splice(index,1);
     }
   }
-
+/*
   addNewQuote(quote:any){
     let quoteLength = this.quotes.length;
     quote.id= quoteLength+1;
