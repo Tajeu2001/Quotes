@@ -1,0 +1,11 @@
+li{
+  padding: 15px;
+}
+
+#details{
+  display:block;
+}
+
+.body{
+  background: url("/src/assets/ocean.jpeg");
+}
