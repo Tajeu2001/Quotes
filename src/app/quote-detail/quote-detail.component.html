@@ -1,7 +1,8 @@
-<div id="details">
+<!--<div id="details">
 <p>author:{{quote.author}}</p>
 <p>submitter:{{quote.submitter}}</p>
 <p>Date:{{quote.submitdate|date}}</p>
+<p>This quote was was posted:{{quote.submitdate|timePassed}}days</p>
 
 <button class="vote" type="button" (click)="upvote()">Upvote</button>{{quote.upvote}}
 <button class="vote" type="button" (click)="downvote()">Downvote</button>{{quote.downvote}}<br>
