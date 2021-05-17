@@ -1,11 +1,28 @@
-li{
-  padding: 15px;
+*{
+  font-weight: bold;
+  
 }
-
+li{
+  padding: 20px;
+  margin-left:50px;
+  
+}
+/*
 #details{
   display:block;
+  margin-left: 50px;
 }
 
-.body{
-  background: url("/src/assets/ocean.jpeg");
+
+h1{
+  text-align: center;
+  text-decoration:underline;
+  font-weight: bold;
+  color: brown;
+  font-size: 55px;
+  font-family:sans-serif;
+}
+
+.card{
+  background-color: rgba(255, 255, 255, 0.425)
 }

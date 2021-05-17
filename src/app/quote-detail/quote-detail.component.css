@@ -1,0 +1,13 @@
+#details{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.vote {
+  background-color:lightblue;
+}
+
+#delete {
+  background-color: grey;
+  margin-top: 10px;
+}

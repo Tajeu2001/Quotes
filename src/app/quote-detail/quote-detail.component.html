@@ -1,8 +1,9 @@
+<div id="details">
 <p>author:{{quote.author}}</p>
 <p>submitter:{{quote.submitter}}</p>
 <p>Date:{{quote.submitdate|date}}</p>
 
-<button type="button" (click)="upvote()">Upvote</button>{{quote.upvote}}
-<button type="button" (click)="downvote()">Downvote</button>{{quote.downvote}}
-
-<button (click)='quoteComplete(true)'>Delete</button>
+<button class="vote" type="button" (click)="upvote()">Upvote</button>{{quote.upvote}}
+<button class="vote" type="button" (click)="downvote()">Downvote</button>{{quote.downvote}}<br>
+<button id="delete" (click)='quoteComplete(true)'>Delete</button>
+</div>

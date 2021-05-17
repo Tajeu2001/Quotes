@@ -1,4 +1,5 @@
 <div class="container-fluid">
+  <div class="card">
   <form #quoteForm='ngForm' (ngSubmit)='submitQuote()' >
     <div class="form-group">
       <label for="quote">Quote</label>
@@ -20,6 +21,7 @@
       <input type="date" class="form-control" id="date" [(ngModel)]="newQuote.submitdate" name="date" #date="ngModel">
     </div>
 
-    <button type="submit" class="btn btn-succeed">Submit</button>
+    <button id="create" type="submit" class="btn btn-succeed">Create</button>
   </form>
+  </div>
 </div>
