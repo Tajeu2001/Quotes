@@ -1,4 +1,12 @@
-# Quotes
+# Author
+Rosemary Siantayo Tajeu
+
+# Project description
+The quotes project is an app for creating inspiratioal quotes.It contains a form where the user provides the name of the quote,author,submitter and date of submittion.There are two button for upvoting or downvoting a quote.
+
+# Technologies used
+*HTML *CSS *Typescript *Javascript
+# Quotes Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
