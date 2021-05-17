@@ -1,4 +1,4 @@
-/*import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
   name: 'timePassed'
@@ -6,7 +6,7 @@
 export class TimePassedPipe implements PipeTransform {
 
   transform(value: any): any {
-    let today:Date = new Date();
+    let today:Date = new Date();/*
     let todaydate:any =new Date( today.getMonth(),today.getDate() ,today.getFullYear());
     var dateDifference = Math.abs(value - todaydate);
     var secondsInDay=86400;
